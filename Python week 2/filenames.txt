@@ -1,0 +1,108 @@
+.gitignore
+.ipynb_checkpoints
+.~lock.students.xlsx#
+01-0 Getting Started with installations etc.ipynb
+01-0 Intro.slides.html
+01-1 Getting Started with installations etc.slides.html
+01-1 Intro.ipynb
+01-2 Python language features.ipynb
+01-3 Python data structures (lists and tuples).ipynb
+01-4 Data structures (Dictionaries).ipynb
+01-Exercise.ipynb
+02-0a Loops.ipynb
+02-0b Functions and Modules.ipynb
+02-0b Functions.ipynb
+02-0c Modules.ipynb
+02-1 CLI Programs.ipynb
+02-1a CLI Programs.ipynb
+02-1b argparse.ipynb
+02-2 Working with Files.ipynb
+02-3 Object-oriented Programming.ipynb
+02-4 Exceptions.ipynb
+02-Exercise.ipynb
+03 Plotting.ipynb
+04 Numpy.ipynb
+05-1 DateTime.ipynb
+05-2 Subprocess.ipynb
+05-3 pandas.ipynb
+06-1 Generators.ipynb
+06-2 Python modules.ipynb
+06-3 Requests.ipynb
+06-4 Multiprocessing.ipynb
+07-1 webscraping.ipynb
+07-2 Regular Expressions.ipynb
+07-3 selenium.ipynb
+08 Data Persistence.ipynb
+08 Web services.ipynb
+09-1 cli arguments.ipynb
+09-2 graphs and pagerank.ipynb
+10-0 Linear Algebra.ipynb
+10-1 Feature Spaces.ipynb
+10-2 Machine Learning basics.ipynb
+10-3 Model Validation.ipynb
+11.1 Neural Networks.ipynb
+11.2 Perceptron Classifier.ipynb
+12 OpenCV.ipynb
+13.1 Movement Detection.ipynb
+13.2 Object recognition.ipynb
+3d_histo.png
+3d_histo2.png
+addresses.txt
+API_EN.ATM.CO2E.KT_DS2_en_csv_v2_10473877.csv
+API_EN.ATM.CO2E.KT_DS2_en_csv_v2_566461.csv
+API_EN.ATM.CO2E.KT_DS2_en_csv_v2_566461.zip
+API_MS.MIL.XPND.CN_DS2_en_csv_v2_571916.csv
+automate7.pdf
+avatar.jpg
+befkbhalderstatkode.csv
+bones_in_london.txt
+book.py
+Books.ipynb
+cit.py
+cities.json
+city.list.json.gz
+cli_demo.py
+cli_examples
+cli_opt_demo.py
+commander_keen_sprite_run.gif_w=611
+country_codes.py
+cphledighed.csv
+Danmarks Statestik.ipynb
+data
+example.xlsx
+file_name
+fundamentals.md
+ghetto.html
+hello.py
+images
+iris_data.xlsx
+kkdata.py
+lektionsplan.md
+loeberuter.json
+Metadata_Country_API_EN.ATM.CO2E.KT_DS2_en_csv_v2_566461.csv
+Metadata_Country_API_MS.MIL.XPND.CN_DS2_en_csv_v2_571916.csv
+Metadata_Indicator_API_EN.ATM.CO2E.KT_DS2_en_csv_v2_566461.csv
+Metadata_Indicator_API_MS.MIL.XPND.CN_DS2_en_csv_v2_571916.csv
+moby_dick.txt
+multi_processing.py
+mylib
+my_modules
+osm.html
+osm2.html
+pi_30_digits.txt
+pi_million_digits.txt
+README.md
+read_print.py
+selenium_krak.py
+squares_plot.png
+students.xlsx
+sub_folder
+teams.csv
+test
+test.py
+unisex_navne.xls
+weather_forecast.html
+webget.py
+who.ipynb
+Xtra Exercises.ipynb
+__pycache__

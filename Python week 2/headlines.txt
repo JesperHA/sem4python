@@ -1,0 +1,6 @@
+# Syntax 
+# Week 2:
+### 1. Functions
+### 2. Modules
+# Python: 4th semester 2020 spring
+## Class A and B
