@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.cluster import MeanShift, estimate_bandwidth
 
-filename = 'week 10\iris_data.csv'
+filename = './iris_data.csv'
 
 df = pd.read_csv(filename, decimal=',')
 
@@ -16,10 +16,9 @@ def scatter_plot():
     for i in range(0, 3):
         value = labels_unique[i]
         species_df = df.loc[df['Species'] == value]
-        print(species_df)
         plt.scatter(
             species_df['Petal length'],
-            species_df['Petal length'],
+            species_df['Petal width'],
             color=colours[i],
             alpha=0.5,
             label=labels_unique[i]
@@ -28,9 +27,11 @@ def scatter_plot():
     plt.xlabel('sepal length')
     plt.ylabel('petal length')
     plt.title('petal length vs sepal length')
-    plt.legend(loc='lower right')
 
-    plt.show()
+
+    return plt
+
+# scatter_plot()
 
 
 data = df.drop(['Species'], axis=1)
@@ -52,9 +53,24 @@ def mean_shift(data, n_samples=1000):
     return labels, cluster_centers, n_clusters
 
 
-# mean_shift(data)
+ms = mean_shift(data)
 
-# scatter_plot()
+def ms_plot(data):
+    labels = data[0]
+    cluster_centers = data[1]
 
-# print(bandwidth)
+    scatter_plot()
+
+    plt.scatter(
+    cluster_centers[0],
+    cluster_centers[1],
+    color="black",
+    alpha=1,
+    )
+
+    plt.show()
+
+        
+ms_plot(ms)
+
 
